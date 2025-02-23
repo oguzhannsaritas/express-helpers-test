@@ -9,8 +9,8 @@ const port = 3000;
 const resultFilePath = path.join(__dirname, 'testResults.json');
 const yamlFilePath = path.join(__dirname, 'testList.yaml');
 const { sendEmail, triggerJenkinsBuild, checkJenkinsBuildStatus , } =require ( './utilities/jenkinsUtils');
-const JENKINS_USERNAME = process.env.JENKINS_USERNAME || 'heybooster';
-const JENKINS_TOKEN = process.env.JENKINS_TOKEN || '11b02d2f066e963c67dd05c882abf4c0de';
+const JENKINS_USERNAME = process.env.JENKINS_USERNAME || 'YOUR NAME';
+const JENKINS_TOKEN = process.env.JENKINS_TOKEN || 'YOUR TOKEN';
 
 
 
